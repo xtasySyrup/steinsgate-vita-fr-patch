@@ -29,3 +29,6 @@ desktop.ini
 .vscode/
 .idea/
 .claude/
+
+# Image d'écran de démarrage personnelle
+sources/splash.png

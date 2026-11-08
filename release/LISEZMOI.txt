@@ -1,9 +1,10 @@
-STEINS;GATE (PS VITA, PCSE00644) : TRADUCTION FRANÇAISE, TEXTE UNIQUEMENT
+STEINS;GATE (PS VITA, PCSE00644) : TRADUCTION FRANÇAISE
 Patch de fan, gratuit et non officiel. Il ne fonctionne qu'avec le jeu : vous devez le posséder.
 
-Ce patch traduit le texte : histoire, messages du téléphone, pièces jointes, TIPS et menus.
-Les images et les vidéos restent d'origine, donc en anglais ou en japonais.
-Version de test : seul le prologue a été vérifié sur console.
+Ce patch traduit l'histoire, les messages du téléphone, les pièces jointes, les TIPS et les menus,
+les images de l'interface, le tableau de Kurisu, les images de journaux télévisés,
+et les sous-titres de trois vidéos.
+Version de test : seuls le prologue et une partie des menus ont été vérifiés sur console.
 
 INSTALLATION
 1. Installez le plugin rePatch sur votre Vita, si ce n'est pas déjà fait.
@@ -13,10 +14,13 @@ INSTALLATION
 Vous devez obtenir :
   ux0:rePatch/PCSE00644/gamedata/script.cpk
   ux0:rePatch/PCSE00644/gamedata/system.cpk
+  ux0:rePatch/PCSE00644/gamedata/bg.cpk
+  ux0:rePatch/PCSE00644/gamedata/movie.cpk
+Il faut environ 660 Mo d'espace libre sur la carte.
 
 DÉSINSTALLATION
 Supprimez ux0:rePatch/PCSE00644/ sur la Vita. Le jeu installé n'est jamais modifié.
 
 Documentation complète, crédits et licences : https://github.com/xtasySyrup/steinsgate-vita-fr-patch et LICENSE.txt.
-Licence du texte traduit : CC BY-NC-SA 4.0, d'après https://github.com/AlpaGit/sg-fr-patch
-Steins;Gate © MAGES. / 5pb. / Nitroplus. Les licences ci-dessus ne couvrent pas les données d'origine du jeu.
+Licence des textes : CC BY-NC-SA 4.0, d'après https://github.com/AlpaGit/sg-fr-patch
+Steins;Gate © MAGES. / 5pb. / Nitroplus. Ces licences ne couvrent que les textes et les outils du projet.
