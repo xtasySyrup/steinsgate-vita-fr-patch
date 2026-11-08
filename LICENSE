@@ -1,0 +1,58 @@
+Ce projet contient deux types de contenus, soumis à des licences différentes.
+
+================================================================================
+1. Outils (dossiers tools/ et patcher/)
+================================================================================
+
+MIT License
+
+Copyright (c) 2026 Moh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. Texte de la traduction (données du patch, textes français dans tools/build_patch.py)
+================================================================================
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
+
+Ce texte est une adaptation de la traduction française de Steins;Gate (version
+Steam) des contributeurs de la VF Steins;Gate :
+https://github.com/AlpaGit/sg-fr-patch
+
+Modifications apportées : conversion au format de la version PS Vita, chaînes du
+téléphone et des menus raccourcies ou réécrites, messages système écrits pour la
+version Vita, phrases déplacées entre les pages de certaines TIPS, une page de
+TIPS raccourcie. Le détail figure dans le README.
+
+Vous pouvez partager et adapter ce texte, sans usage commercial, à condition de
+créditer ces contributeurs et ce projet, d'indiquer vos modifications et de
+diffuser vos adaptations sous la même licence.
+
+================================================================================
+3. Le jeu Steins;Gate
+================================================================================
+
+Steins;Gate © MAGES. / 5pb. / Nitroplus. Édition PS Vita publiée par PQube Ltd.
+Aucun fichier complet du jeu n'est inclus. Les données de patch ne s'utilisent
+qu'avec votre propre copie du jeu. Tous les droits sur le scénario, les
+personnages, les illustrations, la musique et le moteur du jeu appartiennent à
+leurs ayants droit respectifs.

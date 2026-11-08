@@ -1,0 +1,31 @@
+# Le jeu : jamais dans le dépôt
+game/
+PCSE00644/
+*.cpk
+*.vpk
+*.pkg
+*.self
+eboot*.bin
+
+# Texte de base : à télécharger depuis AlpaGit/sg-fr-patch (voir le README)
+sources/sg-fr-patch/script.mpk
+*.mpk
+
+# Résultats de compilation, patch fabriqué et archives de release
+build/
+dist/
+rePatch/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
