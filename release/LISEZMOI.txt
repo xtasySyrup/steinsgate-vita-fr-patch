@@ -17,6 +17,6 @@ Vous devez obtenir :
 DÉSINSTALLATION
 Supprimez ux0:rePatch/PCSE00644/ sur la Vita. Le jeu installé n'est jamais modifié.
 
-Documentation complète, crédits et licences : voir le README du dépôt GitHub du projet et LICENSE.txt.
+Documentation complète, crédits et licences : https://github.com/xtasySyrup/steinsgate-vita-fr-patch et LICENSE.txt.
 Licence du texte traduit : CC BY-NC-SA 4.0, d'après https://github.com/AlpaGit/sg-fr-patch
 Steins;Gate © MAGES. / 5pb. / Nitroplus. Les licences ci-dessus ne couvrent pas les données d'origine du jeu.
