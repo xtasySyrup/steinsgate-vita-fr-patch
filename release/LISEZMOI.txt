@@ -4,7 +4,7 @@ Patch de fan, gratuit et non officiel. Il ne fonctionne qu'avec le jeu : vous de
 Ce patch traduit l'histoire, les messages du téléphone, les pièces jointes, les TIPS et les menus,
 les images de l'interface, le tableau de Kurisu, les images de journaux télévisés,
 et les sous-titres de trois vidéos.
-Version de test : seuls le prologue et une partie des menus ont été vérifiés sur console.
+Seuls le prologue et une partie des menus ont été vérifiés sur console pour l'instant.
 
 INSTALLATION
 1. Installez le plugin rePatch sur votre Vita, si ce n'est pas déjà fait.

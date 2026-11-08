@@ -4,9 +4,7 @@ Patch de traduction française non officiel pour **Steins;Gate** sur **PS Vita**
 
 > **Le patch traduit le texte, les images de l'interface et les sous-titres des vidéos.** Quelques images restent en anglais. Le détail est [ici](#ce-que-traduit-le-patch).
 
-> **La release v0.1.0 ne contient que le texte.** Ce README décrit le contenu du dépôt : les images et les vidéos arriveront avec la prochaine release.
-
-> **État : version de test.** Le patch a été testé sur une vraie console, mais seulement pendant le prologue et sur une partie des menus. Le reste du jeu n'a pas encore été parcouru. [Voir ce qui a été vérifié](#ce-qui-a-été-testé).
+> **État.** Le patch a été testé sur une vraie console pendant le prologue et sur une partie des menus. Le reste du jeu n'y a pas encore été parcouru, donc vos retours sont les bienvenus. [Voir ce qui a été vérifié](#ce-qui-a-été-testé).
 
 Ce projet adapte à la Vita la [traduction française de la version Steam](https://github.com/AlpaGit/sg-fr-patch), réalisée par les contributeurs de la VF Steins;Gate. La traduction de l'histoire est leur travail. Ce dépôt contient l'adaptation technique à la Vita, quelques textes refaits pour le petit écran, et les textes des images et des vidéos, que la version Steam ne traduit pas.
 
@@ -193,7 +191,7 @@ Cette étape ne sert qu'à modifier le patch : pour jouer, utilisez la release. 
 5. Pour fabriquer le zip de release :
 
    ```bash
-   python -I tools/make_release.py . v0.2.0
+   python -I tools/make_release.py . v1.0.0
    ```
 
 Par sécurité, la compilation s'arrête si les polices diffèrent de la version testée sur console. Après une modification voulue des polices, retestez sur Vita, puis mettez à jour `TESTED_SYSTEM` dans `build_patch.py`. De même, une image dont le français ne tient pas dans son emplacement arrête la compilation.
