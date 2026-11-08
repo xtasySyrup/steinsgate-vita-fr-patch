@@ -1,0 +1,22 @@
+STEINS;GATE (PS VITA, PCSE00644) : TRADUCTION FRANÇAISE, TEXTE UNIQUEMENT
+Patch de fan, gratuit et non officiel. Il ne fonctionne qu'avec le jeu : vous devez le posséder.
+
+Ce patch traduit le texte : histoire, messages du téléphone, pièces jointes, TIPS et menus.
+Les images et les vidéos restent d'origine, donc en anglais ou en japonais.
+Version de test : seul le prologue a été vérifié sur console.
+
+INSTALLATION
+1. Installez le plugin rePatch sur votre Vita, si ce n'est pas déjà fait.
+2. Copiez le dossier « rePatch » à la racine de ux0:
+3. Lancez le jeu.
+
+Vous devez obtenir :
+  ux0:rePatch/PCSE00644/gamedata/script.cpk
+  ux0:rePatch/PCSE00644/gamedata/system.cpk
+
+DÉSINSTALLATION
+Supprimez ux0:rePatch/PCSE00644/ sur la Vita. Le jeu installé n'est jamais modifié.
+
+Documentation complète, crédits et licences : voir le README du dépôt GitHub du projet et LICENSE.txt.
+Licence du texte traduit : CC BY-NC-SA 4.0, d'après https://github.com/AlpaGit/sg-fr-patch
+Steins;Gate © MAGES. / 5pb. / Nitroplus. Les licences ci-dessus ne couvrent pas les données d'origine du jeu.

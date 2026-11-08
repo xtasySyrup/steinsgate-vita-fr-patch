@@ -46,47 +46,30 @@ Certains de ces éléments ont été identifiés à l'écran sans inspection des
 ### Ce qu'il vous faut
 
 - Une PS Vita avec un firmware modifié (HENkaku/Ensō) et le plugin **rePatch**.
-- **Votre propre copie** de Steins;Gate, `PCSE00644`.
-- Un ordinateur avec [Python 3](https://www.python.org/downloads/).
-
-### Pourquoi une étape sur PC ?
-
-La release ne contient aucun fichier complet du jeu, seulement les différences avec les originaux. Le patcher les applique à votre copie pour fabriquer le dossier `rePatch`. Vous n'aurez à le faire qu'une fois.
+- **Votre propre copie** de Steins;Gate, `PCSE00644`, installée sur la console. Le patch ne fonctionne pas sans le jeu.
 
 ### Étapes
 
 1. Téléchargez le zip depuis la page **Releases**, puis décompressez-le.
-2. Copiez sur votre PC `script.cpk` et `system.cpk`, **déchiffrés**, depuis `PCSE00644/gamedata/`. Avec VitaShell, utilisez l'option *Open decrypted* sur le dossier du jeu.
-3. Lancez le patcher et indiquez le dossier contenant ces deux fichiers :
-   - Windows : double-cliquez sur `appliquer_patch.bat`.
-   - macOS et Linux :
-
-     ```bash
-     python3 appliquer_patch.py
-     ```
-
-   Vos fichiers originaux ne sont pas modifiés.
-4. Copiez le dossier `rePatch` créé à côté du patcher vers la racine de `ux0:` sur la Vita. Vous devez obtenir :
+2. Copiez le dossier `rePatch` à la racine de `ux0:` sur la Vita. Vous devez obtenir :
 
    ```
    ux0:rePatch/PCSE00644/gamedata/script.cpk
    ux0:rePatch/PCSE00644/gamedata/system.cpk
    ```
 
-5. Lancez le jeu.
+3. Lancez le jeu.
 
-Pour désinstaller, supprimez `ux0:rePatch/PCSE00644/`. Le jeu d'origine n'a jamais été modifié.
+Pour désinstaller, supprimez `ux0:rePatch/PCSE00644/`. Le jeu installé n'est jamais modifié.
 
-### Si le patcher refuse vos fichiers
+### Version du jeu
 
-Il compare leur empreinte à celle de la copie utilisée pour créer le patch. Un refus signifie que le fichier est encore chiffré ou qu'il vient d'une autre version du jeu. Empreintes SHA-256 attendues :
+Le patch a été créé et testé avec une seule copie du jeu. Il remplace des fichiers entiers et ne vérifie pas votre version : une autre révision du jeu pourrait ne pas fonctionner correctement. Pour comparaison, voici les empreintes SHA-256 des fichiers `gamedata` de la copie utilisée :
 
 ```
 script.cpk  7e53806fd2fa7e77fc98b1a8a5ca264f883f926e150b5c0f6365693cb378bca8
 system.cpk  fd5da80879d05a41244718c39292bd551a52c075e9fea6b86b5dbdd66cdc1363
 ```
-
-Le patch n'a été vérifié qu'avec une seule copie du jeu.
 
 ## Ce qui a été testé
 
@@ -179,7 +162,7 @@ Par sécurité, la compilation s'arrête si les polices diffèrent de la version
 
 ```
 ├── README.md, LICENSE
-├── patcher/            Patcher et notice inclus dans la release
+├── release/            Notice incluse dans le zip de release
 ├── sources/            Instructions et licence du texte de base
 ├── tools/
 │   ├── build_patch.py  Compilation : conversion du texte, textes réécrits
@@ -218,12 +201,12 @@ Par sécurité, la compilation s'arrête si les polices diffèrent de la version
 
 ## Licences et mentions légales
 
-- **Outils** (`tools/`, `patcher/`) : licence MIT.
+- **Outils** (`tools/`) : licence MIT.
 - **Texte de la traduction** : [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr), comme la traduction d'origine. Toute réutilisation doit créditer ses auteurs, rester non commerciale et conserver la même licence.
 
 Le texte complet se trouve dans [`LICENSE`](LICENSE).
 
-Patch de fan gratuit et non officiel, sans lien avec les ayants droit. Aucun fichier complet du jeu n'est distribué : la release ne contient que le texte français, les données techniques nécessaires et les polices modifiées, sous forme de différences à appliquer à votre propre copie. Vous devez posséder le jeu. Tous les droits sur le scénario, les personnages, les illustrations, la musique et le moteur appartiennent à leurs ayants droit.
+Patch de fan gratuit et non officiel, sans lien avec les ayants droit. La release contient des versions modifiées de deux archives du jeu, `script.cpk` et `system.cpk`, qui comprennent aussi des données d'origine non couvertes par les licences ci-dessus. Le patch ne fonctionne qu'avec le jeu, que vous devez posséder. Tous les droits sur le scénario, les personnages, les illustrations, la musique et le moteur appartiennent à leurs ayants droit.
 
 Si un ayant droit souhaite le retrait de ce patch, il suffit d'ouvrir une *issue*.
 

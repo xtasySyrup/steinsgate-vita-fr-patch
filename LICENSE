@@ -1,7 +1,7 @@
 Ce projet contient deux types de contenus, soumis à des licences différentes.
 
 ================================================================================
-1. Outils (dossiers tools/ et patcher/)
+1. Outils (dossier tools/)
 ================================================================================
 
 MIT License
@@ -27,7 +27,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ================================================================================
-2. Texte de la traduction (données du patch, textes français dans tools/build_patch.py)
+2. Texte de la traduction (texte français de la release et de tools/build_patch.py)
 ================================================================================
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
@@ -52,7 +52,8 @@ diffuser vos adaptations sous la même licence.
 ================================================================================
 
 Steins;Gate © MAGES. / 5pb. / Nitroplus. Édition PS Vita publiée par PQube Ltd.
-Aucun fichier complet du jeu n'est inclus. Les données de patch ne s'utilisent
-qu'avec votre propre copie du jeu. Tous les droits sur le scénario, les
-personnages, les illustrations, la musique et le moteur du jeu appartiennent à
-leurs ayants droit respectifs.
+La release contient des versions modifiées de deux archives du jeu, script.cpk et
+system.cpk, qui comprennent aussi des données d'origine. Les licences ci-dessus ne
+couvrent pas ces données. Le patch ne fonctionne qu'avec le jeu, que vous devez
+posséder. Tous les droits sur le scénario, les personnages, les illustrations, la
+musique et le moteur du jeu appartiennent à leurs ayants droit respectifs.
