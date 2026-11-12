@@ -44,6 +44,18 @@ Ce projet adapte à la Vita la [traduction française de la version Steam](https
 | Voix | Japonais | Non modifiées |
 | Menu de débogage (`ZZZ`) | Anglais | Hors de la partie normale |
 
+### Aperçu
+
+Captures prises sur une vraie console.
+
+| Menu principal | En jeu | Options |
+|---|---|---|
+| ![Menu principal en français](media/menu-principal.png) | ![Dialogue de Mayuri en français](media/jeu.png) | ![Écran des options en français](media/options.png) |
+
+La vidéo `prologue01` sous-titrée. Cliquez sur l'extrait pour voir la vidéo entière.
+
+[![Extrait de la vidéo prologue01 sous-titrée en français](media/prologue01.gif)](media/prologue01.mp4)
+
 ## Installation
 
 ### Ce qu'il vous faut
